@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D9n1C6FUdXGSLeq00KcjoHEtDch56vHQoppNFYHKseyRF9255+4h5YW9yuwBtgtgsYNLN2p68tdL6w8Ex+zPVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lamhtpham\\Desktop\\Kiến thức\\DEMOCICD\\WEBAPI\\WEBAPI\\WEBAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lamhtpham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
