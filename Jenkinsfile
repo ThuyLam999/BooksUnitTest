@@ -36,12 +36,12 @@ pipeline {
                  echo 'Test: Integration Test'
             }
         }
+
+        stage('Cleanup') {
+            deleteDir()
+        }
     }
     post {
-        always {
-            cleanWs()
-        }
-        
         success {
             mail bcc: '', body: 'Build Success', cc: '', from: '', replyTo: '', subject: 'Test Run SUCCESSFUL', to: 'thanhthuyyasou234@gmail.com'
         }  
