@@ -33,12 +33,14 @@ pipeline {
        
         stage('Test: Integration Test'){
             steps {
-                 echo 'Test: Integration Test'
+                echo 'Test: Integration Test'
             }
         }
 
         stage('Cleanup') {
-            deleteDir()
+            steps {
+                deleteDir()
+            }
         }
     }
     post {
