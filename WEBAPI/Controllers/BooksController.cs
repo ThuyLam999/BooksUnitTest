@@ -54,7 +54,7 @@ namespace WEBAPI.Controllers
             return CreatedAtAction("Get", new { id = item.Id }, item);
         }
 
-        // DELETE api/books/5
+        
         [HttpDelete("{id}")]
         public ActionResult Remove(Guid id)
         {
